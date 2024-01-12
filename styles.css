@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #E67E22;
+    color: white;
+}
+.header{
+display: flex;
+height: 200px;
+background-color: rgb(241, 196, 15);
+
+}
+
+
+ul{
+    display: flex;
+
+
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(189, 195, 199);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+}
+.container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-grow: 1;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-around;
+}
+
+
+.container img{
+    width: 300px;
+    height: 400px;
+}
+
+.text{
+    font-size: 20px;
+    width: 50%;
+    
+}
+
+footer{
+    display: flex;
+    height: 50px;
+    background-color: rgb(52, 73, 94);
+    align-items: center;
+    justify-content: center;
+}
+    
+
+/* article:nth-of-type(3){
+    display: flex;
+    flex-direction: column;
+    flex: 3 200px;
+}
+
+article:nth-of-type(3) div:first-child{
+    display: flex;
+    flex: 1 100px;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.row{
+    gap: 1em;
+}
+
+.col2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: ;
+    align-items: center;
+}
+
+/* *{
+    grid-template-columns: 1fr 2fr 3fr;
+
+    display: grid;
+
+    column-gap: 10px;
+
+    row-gap: 10px;
+
+    grid-template-rows: repeat(3, 1fr); */
+
+    .card {
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+        max-width: 20%;
+        /* margin: auto; */
+        text-align: center;
+        font-family: arial;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: solid;
+        background-color: white;
+      }
+      
+      .price {
+        color: grey;
+        font-size: 22px;
+      }
+      
+      .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+      }
+      
+      .card button:hover {
+        opacity: 0.7;
+      }
+
+
